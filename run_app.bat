@@ -1,0 +1,6 @@
+@echo off
+echo Starting CampusConnect Student Management System...
+echo Opening in your default browser...
+start http://localhost:3000
+python -m http.server 3000
+pause
